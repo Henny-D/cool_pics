@@ -1,1 +1,34 @@
-.
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Make sure padding and borders don't extend beyond the element */
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+header{
+    padding: 20px 20px 10px 150px;
+}
+
+/*
+.backg {
+    background-image: url('backg3.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;  /* Ensure the element is full-width */
+   /* height: 100vh; /* Set a specific height or adjust as needed */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    padding-left: 0;
+    gap: 60px; 
+}
